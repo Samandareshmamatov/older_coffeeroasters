@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width:90%;
+    margin: 20px  auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.title {
+    color:black;
+    font-size: 45px;
+}
+
+.text {
+    color:  rgba(102, 102, 102, 1);
+    font-size: 16px ;
+}
+
+.center {
+    text-align: center;
+}
+
+.aicenter {
+    align-items: center;
+}
+
+.end {
+    text-align: end;
+}
+
+
